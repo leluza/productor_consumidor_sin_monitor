@@ -2,7 +2,7 @@
 
 Trabajo Practico de la materia Programacion Concurrente
 
-Enunciado
+ENUNCIADO
 En un buffer cuya capacidad son 10 lugares, acceden múltiples productores y dos 
 consumidores. Este buffer tiene pura pérdida, es decir que si está lleno, el productor 
 descarta los datos.
@@ -14,7 +14,9 @@ El log debe registrar:
 - Cantidad de lugares ocupados del buffer.
 - Estado de cada consumidor (ocupado consumiendo, o disponible).
 
-En el trabajo se implementan:
+
+
+En el trabajo se IMPLEMENTO:
 
 a) primitivas de concurrencia, haciendo uso del metodo synchronize() sobre los metodos del  objeto buffer, gestionando asi el acceso unitario sobre el recurso compartido, evitando asi incongruencia en los registros.
 
@@ -23,3 +25,6 @@ b) uso de inferfaz Runnable para implementacion de los hilos que modelan el comp
 c) primitiva de sincronizacion de hilos, metodo join()
 
 
+Se adjunta immagen de DIAGRAMAS de Clase y de Secuencia (muestre la interacción de solo dos 
+productores que quieran acceder al buffer, suponiendo que los dos consumidores 
+están disponibles y quieren consumir)
