@@ -1,0 +1,14 @@
+--- BUFFER STATISTICS --- 
+
+-> Buffer Size = 1
+-> Consumer 1 is busy : true
+-> Consumer 2 is busy : true
+
+-> Buffer Size = 1
+-> Consumer 1 is busy : true
+-> Consumer 2 is busy : true
+
+-> Buffer Size = 3
+-> Consumer 1 is busy : true
+-> Consumer 2 is busy : true
+
